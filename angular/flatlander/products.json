@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Dodecahedron",
+        "price": 2.95,
+        "description": "Rare gem found on the depths of a volcano",
+        "canPurchase": true,
+        "soldOut": false,
+        "images": [
+            {
+                "full": "images/gem1.jpg",
+                "thumb": "http://placehold.it/50x50"
+            }
+        ],
+        "reviews": [
+            {
+                "stars": 5,
+                "body": "Linda pedra, parece alienígena.",
+                "author": "bitch@gmail.com"
+            },
+            {
+                "stars": 4,
+                "body": "Pedra linda.",
+                "author": "fucker@gmail.com"
+            }
+        ]
+    },
+    {
+        "name": "Flame Rock",
+        "price": 6.95,
+        "description": "Gem from space",
+        "canPurchase": true,
+        "soldOut": false,
+        "images": [
+            {
+                "full": "images/gem3.jpg",
+                "thumb": "http://placehold.it/50x50"
+            }
+        ],
+        "reviews": [
+            {
+                "stars": 4,
+                "body": "Pedra linda.",
+                "author": "fucker@gmail.com"
+            }
+        ]
+    },
+    {
+        "name": "Pentagonal Gem",
+        "price": 5.95,
+        "description": "Wonderful gem with 5 faces",
+        "canPurchase": true,
+        "soldOut": false,
+        "images": [
+            {
+                "full": "images/gem2.jpg",
+                "thumb": "http://placehold.it/50x50"
+            }
+        ],
+        "reviews": [
+            {
+                "stars": 5,
+                "body": "Pedra muito pesada",
+                "author": "sucker@gmail.com"
+            }
+        ]
+    }
+]

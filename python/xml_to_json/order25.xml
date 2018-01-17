@@ -1,0 +1,12 @@
+<Order posId="1" orderId="138" stateId="3" state="TOTALED" typeId="0" type="SALE" originatorId="POS0001" lineCounter="5" createdAt="2015-01-15T13:48:23.388" lastNewLineAt="2015-01-15T13:48:36.158" businessPeriod="20141218" podType="FC" sessionId="pos=1,user=2002,count=1,period=20141218" totalAmount="50.95" totalAfterDiscount="50.95" totalGross="50.95" totalTender="0.00" change="0.00" dueAmount="50.95" priceList="EI" priceBasis="G" saleType="0" lastModifiedLine="5" taxTotal="0.00" discountAmount="0.00" saleTypeDescr="EAT_IN" createdAtGMT="2015-01-15T15:48:23.389" lastNewLineAtGMT="2015-01-15T15:48:36.159" orderDiscountAmount="0.00" tip="0.00" numberServed="5">
+	<StateHistory>
+		<State stateId="1" state="IN_PROGRESS" timestamp="2015-01-15T13:48:23.420" timestampGMT="2015-01-15T15:48:23.421"/>
+		<State stateId="3" state="TOTALED" timestamp="2015-01-15T13:48:39.588" timestampGMT="2015-01-15T15:48:39.589"/>
+	</StateHistory>
+	<TenderHistory/>
+	<SaleLine lineNumber="1" level="0" itemId="1" partCode="785126" productName="Asiago Steak Sdw" multipliedQty="1" qty="1" incQty="0" decQty="0" itemPrice="9.99" unitPrice="9.99" addedUnitPrice="0.00" subUnitPrice="0.00" itemType="PRODUCT" priceKey="4147" productPriority="100"/>
+	<SaleLine lineNumber="2" level="0" itemId="1" partCode="785200" productName="Rst Tky Avc BLT Sdw" multipliedQty="1" qty="1" incQty="0" decQty="0" itemPrice="10.99" unitPrice="10.99" addedUnitPrice="0.00" subUnitPrice="0.00" itemType="PRODUCT" priceKey="4457" productPriority="100"/>
+	<SaleLine lineNumber="3" level="0" itemId="1" partCode="785126" productName="Asiago Steak Sdw" multipliedQty="1" qty="1" incQty="0" decQty="0" itemPrice="9.99" unitPrice="9.99" addedUnitPrice="0.00" subUnitPrice="0.00" itemType="PRODUCT" priceKey="4147" productPriority="100"/>
+	<SaleLine lineNumber="4" level="0" itemId="1" partCode="785126" productName="Asiago Steak Sdw" multipliedQty="1" qty="1" incQty="0" decQty="0" itemPrice="9.99" unitPrice="9.99" addedUnitPrice="0.00" subUnitPrice="0.00" itemType="PRODUCT" priceKey="4147" productPriority="100"/>
+	<SaleLine lineNumber="5" level="0" itemId="1" partCode="785126" productName="Asiago Steak Sdw" multipliedQty="1" qty="1" incQty="0" decQty="0" itemPrice="9.99" unitPrice="9.99" addedUnitPrice="0.00" subUnitPrice="0.00" itemType="PRODUCT" priceKey="4147" productPriority="100"/>
+</Order>

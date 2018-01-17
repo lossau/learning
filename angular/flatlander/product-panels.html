@@ -1,0 +1,72 @@
+<section ng-controller="PanelController as panel">
+	
+
+
+	<ul class="nav nav-pills">
+		
+		<li ng-class="{ active: panel.isSelected(1) }">
+			<a href ng-click="panel.selectTab(1)">Description</a>
+		</li>
+
+		<li ng-class="{ active: panel.isSelected(2) }">
+			<a href ng-click="panel.selectTab(2)">Specification</a>
+		</li>
+
+		<li ng-class="{ active: panel.isSelected(3) }">
+			<a href ng-click="panel.selectTab(3)">Reviews</a>
+		</li>
+
+	</ul>
+
+
+
+	<div ng-show="panel.isSelected(1)">
+		<blockquote>{{ product.description }}</blockquote>
+	</div>
+
+	<div  ng-show="panel.isSelected(2)">
+		<h4>Specifications</h4>
+	</div>
+
+	<div  ng-show="panel.isSelected(3)">
+		<h4>Reviews</h4>
+
+		<!-- mostrar os reviews existentes -->
+		<li ng-repeat="review in product.reviews">
+			<blockquote>
+					<b>{{review.stars}} Stars - </b>
+					{{review.body}}
+					<cite>-- {{review.author}}</cite>
+			</blockquote>
+		</li>
+
+		<!-- form para um novo review -->
+		<form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)">
+			
+			<!-- preview do form -->
+			<blockquote>
+				<p><b>Stars: {{reviewCtrl.review.stars}}</b></p>
+				<p>{{reviewCtrl.review.body}}</p>
+				<p><cite>-- {{reviewCtrl.review.author}}</cite></p>
+			</blockquote>
+
+			<!-- form para review -->
+			<p>
+				<select ng-model="reviewCtrl.review.stars">
+					<option value="1">1 star</option>
+					<option value="2">2 stars</option>
+					<option value="3">3 stars</option>
+					<option value="4">4 stars</option>
+					<option value="5">5 stars</option>
+				</select>
+			</p>
+			<p><textarea ng-model="reviewCtrl.review.body"></textarea></p>
+			<p>
+				<label>by:</label>
+				<input ng-model="reviewCtrl.review.author" type="email" />
+			</p>
+			<p><input type="submit" value="Submit" /></p>
+		</form>
+
+	</div>
+</section>

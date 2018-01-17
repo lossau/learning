@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "dbName": "todoDb",
+  "uname": "test",
+  "pwd": "test"
+}

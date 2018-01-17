@@ -1,0 +1,23 @@
+/** {
+	border: 1px solid red !important;
+}*/
+
+body {
+	font-family: 'Architects Daughter', cursive;
+}
+
+hr {
+	border-top: 3px dashed;
+}
+
+.text-mutes {
+	color: #BCBBBB;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px
+}
